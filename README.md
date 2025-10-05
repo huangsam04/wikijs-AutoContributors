@@ -11,7 +11,7 @@
 4. 输入如下内容：
 ```
 <script
-  src="/wikijs-contributors.js"
+  src="此处填入脚本的链接，例如上传到wiki.js本站素材根目录的话就是/wikijs-contributors.js"
   data-api-key="此处填入API Key"
   data-graphql-url="https://你的wiki.js网址/graphql">
 </script>
