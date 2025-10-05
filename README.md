@@ -22,3 +22,6 @@
 使用Chatgpt和Claude合璧生成（。
 
 用到了graphql。
+
+## 已知问题
+1. 访问 / 时候无法显示贡献者，/zh/home 就正常运行。
