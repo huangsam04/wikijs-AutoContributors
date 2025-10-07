@@ -26,3 +26,9 @@
 
 ## 已知问题
 1. 访问 / 时候无法显示贡献者，/zh/home 就正常运行。
+   解决方案：在Nginx反代处设置访问 `/` 自动跳转到 `/zh/home`
+```
+location = / {
+    return 301 https://$host/zh/home;
+}
+```
